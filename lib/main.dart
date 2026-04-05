@@ -3,6 +3,7 @@ import 'package:application_evently/provider/language_provider.dart';
 import 'package:application_evently/provider/theme_provider.dart';
 import 'package:application_evently/ui/home_screen.dart';
 import 'package:application_evently/ui/onboarding/onboarding_screen.dart';
+import 'package:application_evently/utils/app_routes.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -40,6 +41,10 @@ class MyApp extends StatelessWidget {
     locale: Locale(languageProvider.appLanguage),
      home: isOnboardingDone ? HomeScreen() :  OnboardingScreen(),
     themeMode:themeProvider.appTheme,
+    routes: {
+      AppRoutes.onboardingRouteName: (context) => const OnboardingScreen(),
+AppRoutes.homeRouteName: (context) => const HomeScreen(),
+    },
 
   );
 

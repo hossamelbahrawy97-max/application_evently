@@ -35,4 +35,25 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get body_4boarding =>
       'اجعل كل مناسبة لا تُنسى بمشاركة التجربة مع الآخرين. تتيح لك منصتنا دعوة الأصدقاء، وإبقاء الجميع على اطلاع دائم، والاحتفال باللحظات معًا. وثّق وشارك الحماس مع شبكتك، لتستعيد أبرز اللحظات وتعتزّ بالذكريات.';
+
+  @override
+  String get lets_start => 'هيا نبدأ';
+
+  @override
+  String get next => 'التالي';
+
+  @override
+  String get get_started => 'ابدأ الآن';
+
+  @override
+  String get english => 'الإنجليزية';
+
+  @override
+  String get arabic => 'العربية';
+
+  @override
+  String get theme => 'السمة';
+
+  @override
+  String get language => 'اللغة';
 }
