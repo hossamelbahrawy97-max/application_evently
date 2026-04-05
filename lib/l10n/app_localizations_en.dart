@@ -35,4 +35,25 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get body_4boarding =>
       'Make every event memorable by sharing the experience with others. Our platform lets you invite friends, keep everyone in the loop, and celebrate moments together. Capture and share the excitement with your network, so you can relive the highlights and cherish the memories.';
+
+  @override
+  String get lets_start => 'Let’s start';
+
+  @override
+  String get next => 'Next ';
+
+  @override
+  String get get_started => ' Get started';
+
+  @override
+  String get english => 'English';
+
+  @override
+  String get arabic => 'Arabic';
+
+  @override
+  String get theme => 'Theme';
+
+  @override
+  String get language => 'Language';
 }

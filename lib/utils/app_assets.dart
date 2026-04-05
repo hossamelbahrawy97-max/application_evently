@@ -7,4 +7,6 @@ class AppAssets {
   static const String onBoarding3Dark  = 'assets/images/onboarding3_dark.png';
   static const String onBoarding4 = 'assets/images/onboarding4.png';
   static const String onBoarding4Dark  = 'assets/images/onboarding4_dark.png';
+  static const String eventlyLightLogo = 'assets/images/evently_logo.png';
+  static const String eventlyDarkLogo = 'assets/images/evently_dark_logo.png';
 }
