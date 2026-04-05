@@ -7,8 +7,8 @@ import 'package:provider/provider.dart';
 import '../provider/language_provider.dart';
 import '../provider/theme_provider.dart';
 
-class HomaScreen extends StatelessWidget {
-  const HomaScreen({super.key});
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
